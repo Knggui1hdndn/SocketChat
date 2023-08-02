@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         btnSend = (Button) findViewById(R.id.btnSend);
         welcomeMessage = (TextView) findViewById(R.id.welcomeMessage);
 
-
+//
         Intent intent = getIntent();
         username = intent.getStringExtra("username");
 
